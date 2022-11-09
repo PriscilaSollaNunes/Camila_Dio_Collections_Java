@@ -7,7 +7,7 @@ class ExemploList {
     public static void main(String[] args) {
 // Dada uma lista com 7 notas de um aluno [7, 8.5, 9.3, 5, 7, 0, 3.6], faça:
 
-//      List notas = new ArrayList(); //antes do java 5
+//     List notas = new ArrayList(); //antes do java 5
 //      ArrayList<Double> notas = new ArrayList<>();
 //      List<Double> notas = new ArrayList<>(Arrays.asList(7d, 8.5, 9.3, 5d, 7d, 0d, 3.6));
         /*List<Double> notas = Arrays.asList(7d, 8.5, 9.3, 5d, 7d, 0d, 3.6);
@@ -30,7 +30,7 @@ class ExemploList {
         notas.add(3.6);
         System.out.println(notas.toString());
 
-        System.out.println("Exiba a posição da nota 5.0: " + notas.indexOf(5d));
+        System.out.println("Exiba a posição da nota 5.0: " + notas.indexOf(5.0));
 
         System.out.println("Adicione na lista a nota 8.0 na posição 4: ");
         notas.add(4, 8d);
@@ -80,9 +80,9 @@ class ExemploList {
 
         /*System.out.println("Apague toda a lista");
         notas.clear();
-        System.out.println(notas);
-        */
-        System.out.println("Confira se a lista está vazia: " + notas.isEmpty());
+        System.out.println(notas);*/
+        
+        System.out.println ("Confira se a lista está vazia: " + notas.isEmpty());
 
 /*
 Para você: Resolva esses exercícios utilizando os métodos da implementação LinkedList:
@@ -92,5 +92,8 @@ Para você: Resolva esses exercícios utilizando os métodos da implementação 
         System.out.println("Mostre a primeira nota da nova lista removendo-o: ");
 */
 
+
+
     }
 }
+
