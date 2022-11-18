@@ -1,4 +1,4 @@
-package streamAPI;
+package streamapi;
 
 public class ExemploStream {
     

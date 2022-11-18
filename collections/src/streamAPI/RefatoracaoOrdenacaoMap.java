@@ -1,4 +1,4 @@
-package streamAPI;
+package streamapi;
 
 import br.com.dio.collection.map.exercicioProposto03.Contato;
 

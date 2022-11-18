@@ -1,4 +1,4 @@
-package streamAPI;
+package streamapi;
 
 import java.util.*;
 import java.util.function.*;
